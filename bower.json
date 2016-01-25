@@ -1,0 +1,23 @@
+{
+  "name": "planck",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "^1.3.0",
+    "bootstrap-sass-official": "^3.2.0",
+    "angular-animate": "^1.3.0",
+    "angular-cookies": "^1.3.0",
+    "angular-resource": "^1.3.0",
+    "angular-route": "^1.3.0",
+    "angular-sanitize": "^1.3.0",
+    "angular-touch": "^1.3.0",
+    "angular-scroll": "^1.0.0",
+    "angular-bootstrap": "^0.14.3",
+    "DateJS": "^1.0.0-rc3",
+    "font-awesome": "^4.5.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.3.0"
+  },
+  "appPath": "app",
+  "moduleName": "planckApp"
+}

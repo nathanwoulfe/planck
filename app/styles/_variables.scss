@@ -1,0 +1,12 @@
+$day: 10000px;
+
+//
+$second: 1px;
+$minute: $second * 60;
+$hour: $minute * 60;
+$day: $hour * 24;
+$year: $day * 365;
+
+// bg colors
+$start: rgba(10,10,10,1);
+$end: rgba(46,59,148,1);

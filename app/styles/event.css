@@ -1,0 +1,375 @@
+/* line 3, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+.event {
+  height: 200px;
+  border-bottom: 1px solid #fff;
+  position: relative; }
+  /* line 8, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:last-of-type {
+    overflow: hidden; }
+  /* line 12, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-5px);
+    animation: pulse 1s linear infinite;
+    -webkit-animation: pulse 1s linear infinite; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(0):after {
+    width: 10px;
+    height: 10px;
+    transform: translateX(-5px);
+    bottom: -5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(1):after {
+    width: 11px;
+    height: 11px;
+    transform: translateX(-5.5px);
+    bottom: -5.5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(2):after {
+    width: 12px;
+    height: 12px;
+    transform: translateX(-6px);
+    bottom: -6px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(3):after {
+    width: 13px;
+    height: 13px;
+    transform: translateX(-6.5px);
+    bottom: -6.5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(4):after {
+    width: 14px;
+    height: 14px;
+    transform: translateX(-7px);
+    bottom: -7px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(5):after {
+    width: 15px;
+    height: 15px;
+    transform: translateX(-7.5px);
+    bottom: -7.5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(6):after {
+    width: 16px;
+    height: 16px;
+    transform: translateX(-8px);
+    bottom: -8px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(7):after {
+    width: 17px;
+    height: 17px;
+    transform: translateX(-8.5px);
+    bottom: -8.5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(8):after {
+    width: 18px;
+    height: 18px;
+    transform: translateX(-9px);
+    bottom: -9px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(9):after {
+    width: 19px;
+    height: 19px;
+    transform: translateX(-9.5px);
+    bottom: -9.5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(10):after {
+    width: 20px;
+    height: 20px;
+    transform: translateX(-10px);
+    bottom: -10px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(11):after {
+    width: 21px;
+    height: 21px;
+    transform: translateX(-10.5px);
+    bottom: -10.5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(12):after {
+    width: 22px;
+    height: 22px;
+    transform: translateX(-11px);
+    bottom: -11px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(13):after {
+    width: 23px;
+    height: 23px;
+    transform: translateX(-11.5px);
+    bottom: -11.5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(14):after {
+    width: 24px;
+    height: 24px;
+    transform: translateX(-12px);
+    bottom: -12px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(15):after {
+    width: 25px;
+    height: 25px;
+    transform: translateX(-12.5px);
+    bottom: -12.5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(16):after {
+    width: 26px;
+    height: 26px;
+    transform: translateX(-13px);
+    bottom: -13px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(17):after {
+    width: 27px;
+    height: 27px;
+    transform: translateX(-13.5px);
+    bottom: -13.5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(18):after {
+    width: 28px;
+    height: 28px;
+    transform: translateX(-14px);
+    bottom: -14px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(19):after {
+    width: 29px;
+    height: 29px;
+    transform: translateX(-14.5px);
+    bottom: -14.5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(20):after {
+    width: 30px;
+    height: 30px;
+    transform: translateX(-15px);
+    bottom: -15px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(21):after {
+    width: 31px;
+    height: 31px;
+    transform: translateX(-15.5px);
+    bottom: -15.5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(22):after {
+    width: 32px;
+    height: 32px;
+    transform: translateX(-16px);
+    bottom: -16px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(23):after {
+    width: 33px;
+    height: 33px;
+    transform: translateX(-16.5px);
+    bottom: -16.5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(24):after {
+    width: 34px;
+    height: 34px;
+    transform: translateX(-17px);
+    bottom: -17px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(25):after {
+    width: 35px;
+    height: 35px;
+    transform: translateX(-17.5px);
+    bottom: -17.5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(26):after {
+    width: 36px;
+    height: 36px;
+    transform: translateX(-18px);
+    bottom: -18px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(27):after {
+    width: 37px;
+    height: 37px;
+    transform: translateX(-18.5px);
+    bottom: -18.5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(28):after {
+    width: 38px;
+    height: 38px;
+    transform: translateX(-19px);
+    bottom: -19px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(29):after {
+    width: 39px;
+    height: 39px;
+    transform: translateX(-19.5px);
+    bottom: -19.5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(30):after {
+    width: 40px;
+    height: 40px;
+    transform: translateX(-20px);
+    bottom: -20px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(31):after {
+    width: 41px;
+    height: 41px;
+    transform: translateX(-20.5px);
+    bottom: -20.5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(32):after {
+    width: 42px;
+    height: 42px;
+    transform: translateX(-21px);
+    bottom: -21px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(33):after {
+    width: 43px;
+    height: 43px;
+    transform: translateX(-21.5px);
+    bottom: -21.5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(34):after {
+    width: 44px;
+    height: 44px;
+    transform: translateX(-22px);
+    bottom: -22px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(35):after {
+    width: 45px;
+    height: 45px;
+    transform: translateX(-22.5px);
+    bottom: -22.5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(36):after {
+    width: 46px;
+    height: 46px;
+    transform: translateX(-23px);
+    bottom: -23px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(37):after {
+    width: 47px;
+    height: 47px;
+    transform: translateX(-23.5px);
+    bottom: -23.5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(38):after {
+    width: 48px;
+    height: 48px;
+    transform: translateX(-24px);
+    bottom: -24px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(39):after {
+    width: 49px;
+    height: 49px;
+    transform: translateX(-24.5px);
+    bottom: -24.5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(40):after {
+    width: 50px;
+    height: 50px;
+    transform: translateX(-25px);
+    bottom: -25px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(41):after {
+    width: 51px;
+    height: 51px;
+    transform: translateX(-25.5px);
+    bottom: -25.5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(42):after {
+    width: 52px;
+    height: 52px;
+    transform: translateX(-26px);
+    bottom: -26px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(43):after {
+    width: 53px;
+    height: 53px;
+    transform: translateX(-26.5px);
+    bottom: -26.5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(44):after {
+    width: 54px;
+    height: 54px;
+    transform: translateX(-27px);
+    bottom: -27px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(45):after {
+    width: 55px;
+    height: 55px;
+    transform: translateX(-27.5px);
+    bottom: -27.5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(46):after {
+    width: 56px;
+    height: 56px;
+    transform: translateX(-28px);
+    bottom: -28px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(47):after {
+    width: 57px;
+    height: 57px;
+    transform: translateX(-28.5px);
+    bottom: -28.5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(48):after {
+    width: 58px;
+    height: 58px;
+    transform: translateX(-29px);
+    bottom: -29px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(49):after {
+    width: 59px;
+    height: 59px;
+    transform: translateX(-29.5px);
+    bottom: -29.5px; }
+  /* line 28, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event:nth-of-type(50):after {
+    width: 60px;
+    height: 60px;
+    transform: translateX(-30px);
+    bottom: -30px; }
+  /* line 41, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event h3, .event h4 {
+    color: #fff;
+    font-size: 18px; }
+  /* line 46, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event h4 {
+    font-weight: 300; }
+  /* line 50, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event .event-content {
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
+    right: 100px;
+    text-align: center; }
+  /* line 60, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event.label-only .event-content {
+    background: #fff;
+    padding: 10px;
+    max-width: 500px;
+    border-radius: 2px;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%); }
+    /* line 69, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+    .event.label-only .event-content:after {
+      content: '';
+      display: block;
+      height: 30px;
+      width: 2px;
+      border-left: 2px solid #fff;
+      position: absolute;
+      top: 100%;
+      left: calc(50% - 1px); }
+  /* line 81, D:/Documents/My Web Sites/Planck-app/app/styles/event.scss */
+  .event.label-only h3, .event.label-only h4 {
+    color: #555;
+    margin-bottom: 0; }
+
+@keyframes pulse {
+  0% {
+    transform: scale(1.1); }
+  50% {
+    transform: scale(0.8); }
+  100% {
+    transform: scale(1); } }
+
+/*# sourceMappingURL=event.css.map */

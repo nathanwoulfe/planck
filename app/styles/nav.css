@@ -1,0 +1,43 @@
+/* line 1, D:/Documents/My Web Sites/Planck-app/app/styles/nav.scss */
+.navbar-fixed-left {
+  position: fixed;
+  left: 0;
+  width: 200px;
+  top: 0;
+  bottom: 0;
+  border-radius: 0;
+  padding: 15px;
+  z-index: 1060; }
+  /* line 10, D:/Documents/My Web Sites/Planck-app/app/styles/nav.scss */
+  .navbar-fixed-left a {
+    color: #fff; }
+  /* line 14, D:/Documents/My Web Sites/Planck-app/app/styles/nav.scss */
+  .navbar-fixed-left .btn-row {
+    margin: 0 auto;
+    width: 100px;
+    text-align: center;
+    font-size: 0;
+    position: relative;
+    z-index: 1070;
+    transform: translateY(-50px); }
+  /* line 24, D:/Documents/My Web Sites/Planck-app/app/styles/nav.scss */
+  .navbar-fixed-left button {
+    margin: 0;
+    width: calc(100% / 3);
+    display: inline-block;
+    text-align: center;
+    background: #f5f5f5;
+    border-radius: 0;
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid #eee;
+    border-bottom: 0; }
+    /* line 36, D:/Documents/My Web Sites/Planck-app/app/styles/nav.scss */
+    .navbar-fixed-left button:first-child, .navbar-fixed-left button:last-child {
+      border-left: 0;
+      border-right: 0; }
+    /* line 42, D:/Documents/My Web Sites/Planck-app/app/styles/nav.scss */
+    .navbar-fixed-left button:hover {
+      background: #ddd; }
+
+/*# sourceMappingURL=nav.css.map */
