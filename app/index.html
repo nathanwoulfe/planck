@@ -23,7 +23,7 @@
 
   <!-- Add your site or application content here -->
   <div ng-controller="MainCtrl">
-    <nav class="navbar navbar-fixed-left">
+    <nav class="navbar-fixed-left">
       <div class="scroll-indicator-outer">
         <div class="scroll-indicator" ng-style="{transform: dayNightRotation}">
           <span class="fa fa-moon-o"></span>
@@ -37,17 +37,15 @@
         </div>
       </div>
     </nav>
-    <div class="container-fluid">
-      <div class="row timeline">
-        <div class="bya">
-          <div class="event" ng-repeat="e in data track by $index" ng-class="{'label-only': !e.gsx$bya.$t.length && !e.gsx$mya.$t.length && !e.gsx$kya.$t.length}" ng-style="{'height': e.height}" id="e-{{$index}}">
-            <div ng-if="e.gsx$bya.$t.length || e.gsx$mya.$t.length || e.gsx$kya.$t.length" class="event-content">
-              <h3>{{e.gsx$label.$t}}</h3>
-              <h4>{{date(e.gsx$datetime.$t)}} | {{yearsAgo(e)}} years ago</h4>
-            </div>
-            <div ng-if="!e.gsx$bya.$t.length && !e.gsx$mya.$t.length && !e.gsx$kya.$t.length" class="event-content">
-              <h3>{{e.gsx$label.$t}}</h3>
-            </div>
+    <div class="timeline">
+      <div class="bya">
+        <div class="event" ng-repeat="e in data track by $index" ng-class="{'label-only': !e.gsx$bya.$t.length && !e.gsx$mya.$t.length && !e.gsx$kya.$t.length}" ng-style="{'height': e.height}" id="e-{{$index}}">
+          <div ng-if="e.gsx$bya.$t.length || e.gsx$mya.$t.length || e.gsx$kya.$t.length" class="event-content">
+            <h3>{{e.gsx$label.$t}}</h3>
+            <h4>{{date(e.gsx$datetime.$t)}} | {{yearsAgo(e)}} years ago</h4>
+          </div>
+          <div ng-if="!e.gsx$bya.$t.length && !e.gsx$mya.$t.length && !e.gsx$kya.$t.length" class="event-content">
+            <h3>{{e.gsx$label.$t}}</h3>
           </div>
         </div>
       </div>

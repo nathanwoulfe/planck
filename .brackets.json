@@ -1,5 +1,6 @@
 {
     "jscodehints.detectedExclusions": [
-        "D:/Documents/My Web Sites/Planck-app/bower_components/DateJS/build/date-de-LI.js"
+        "D:/Documents/My Web Sites/Planck-app/bower_components/DateJS/build/date-de-LI.js",
+        "D:/Documents/My Web Sites/Planck-app/bower_components/DateJS/build/date-de-DE.js"
     ]
 }
